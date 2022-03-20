@@ -1,0 +1,160 @@
+	{
+		"applicationNo": "",
+		"employerGroupCd": "EMP-MultiplySAEmpGro",
+		"employerGroupOfferingCd": "EGO-MultiplySAEmpOffer",
+		"allowedBillingFrequencyTypeCd": "MONTHLY",
+		"totalPremium": 2000,
+		"toBeMailed": "Y",
+		"programCd": "PRO-Migration",
+		"contractDate": "2022-01-01",
+		"contractEndDate": "2999-12-31",
+		"prefMethodReceivePolicy": "H",
+		"supplierStateCd": "MH",
+		"contractSource": "ABHI",
+		"statusCd" : "A",
+		"appAdvisors": [{
+				"agent": {
+					"agentExtRef": "ABHI-4010",
+					"agentName": "_agent",
+					"agentLastName": "Agent 49",
+					"mobileNo": "738377781",
+					"emailAddress": "agent@gmail.com",
+					"intermediaryBranch": "secrete",
+					"intermediaryBranchCd": "scrtCD",
+					"agentCompanyCd": "ABHI-4010",
+                		"consultantCode": "ABHI-4010"
+
+					
+				},
+				"agentCommitionPer": 20.5
+			}
+		],
+		"contractAttributes": [{
+				"attributeTypeCd": "QUALIFYPRD",
+				"attributeValue": "3234535"
+			},
+			{
+				"attributeTypeCd": "CAMPAIGN_CODE",
+				"attributeValue": "R1000Cashback",
+				"effFromDate": "2021-01-02",
+				"effToDate": "2022-06-02"
+			},
+			{
+				"effFromDate": "2021-02-11",
+				"effToDate": "2023-01-01",
+				"attributeTypeCd": "EMP_NO",
+				"attributeValue": "210083855"
+			}
+
+		],
+
+		"contractMembers": [{
+			"contractProducts": [{
+				"productCd": "PRD-Migration",
+				"planCd": "TTA-Premier",
+				"effFromDate": "2020-08-19",
+				"effToDate": "2999-12-31"
+			}],
+
+			"member": {
+				"preferredCommunicationTypes": [{
+						"commTypeCd": "WORK"
+					},
+					{
+						"commTypeCd": "ADDRESS"
+					}
+				],
+				"verbalLanguageCd": "E",
+				"writtenLanguageCd": "E",
+				"titleCd": "Mr",
+				"sourceCd": "MMULTIPLY",
+				
+				"initials": "M",
+				"firstName": "_firstname",
+				"middleName": "",
+				"lastName": "_lastname",
+				"knownAsName": "MAR",
+				"nationalityStatus": {
+					"nationalityStatusCode": "INDIAN"
+				},
+				"addresses": [{
+					"addrTypeCd": "WORK",
+					"addrLine1": "_address",
+					"cityTown": "CityTown",
+					"countryCd": "IND",
+					"effFromDate": "2018-10-12",
+					"effToDate": "2999-12-31",
+					"provinceState": "MH",
+					"sourceCd": "ABHI",
+					"zipPostalCd": "6543563"
+				}],
+				"phones": [{
+					"phoneTypeCd": "MOBILE",
+					"phoneNo": "_phoneNo",
+					"countryCd": "IND",
+					"areaCd": "1",
+					"extension": "91",
+					"effFromDate": "2018-10-12",
+					"effToDate": "2999-12-31",
+					"sourceCd": "ABHI"
+				}],
+				"emailAddresses": [{
+					"emailAddrTypeCd": "PERSONAL",
+					"emailAddr": "vincent.vantonder1@multiply.co.za",
+					"sourceCd": "ABHI",
+					"effFromDate": "2021-01-01",
+					"effToDate": "2022-06-02"
+				}],
+				"personMaritalStatuses": [{
+					"maritalStatusCd": "M",
+					"effFromDate": "2018-10-12",
+					"effToDate": "2999-12-31",
+					"sourceCd": "ABHI"
+				}],
+				"personUID": [{
+					"uidNo": "_id",
+					"typeCd": "SAID",
+					"countryCd": "IND",
+					"effFromDate": "2018-10-12",
+					"effToDate": "2999-12-31"
+				}],
+				"personGenders": [{
+					"genderTypeCd": "F",
+					"effFromDate": "2018-10-12",
+					"effToDate": "2999-12-31"
+				}],
+        "products": [
+          {
+            "productReferenceNumber": "_productRefNo",
+            "productName": "MRA - CRF",
+            "entityRoleCode": "PRINCIPAL",
+            "effectiveFromDate": "2019-08-13",
+            "effectiveToDate": "2020-12-31",
+            "productDesc": "Add new column in product_Descripion and take a bow!!"
+          }
+        ],
+				"dateOfBirth": "2005-01-01"
+			},
+			"contractRoleCd": "PRINCIPAL",
+			"relationToPMCd": "SELF",
+			"contractDisplaySeq": 1,
+			"effFromDate": "2018-10-12",
+			"effToDate": "2999-10-11"
+		}],
+		"bankDetail": {
+			"financialInstitutionCd": "FNB",
+			"accountTypeCd": "SAVINGS",
+			"branchCd": "BNKCTY",
+			"accountNo": "_accoountNo",
+			"paymentMethodCd": "SO",
+			"deductionDay": 25,
+			"accountHolder": "_accountHolder",
+			"personUidValue": "_id",
+			"personUidType": null,
+			"effFromDate": "2019-10-05",
+			"effToDate": "2999-12-31",
+			"bankName": "Bank City",
+			"bankCity": "Steyn City"
+		}
+	}
+
