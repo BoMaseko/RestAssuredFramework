@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="org.bongz.listeners.ListenerClass"/>
-    <listener class-name="org.bongz.listeners.MethodInterceptor"/>
-    <listener class-name="org.bongz.listeners.AnnotationTransformer"/>
-  </listeners>
-  <test thread-count="5" parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.bongz.tests.EventTransactionTest">
+      <class name="org.bongz.tests.R50PNPCampaignTest">
         <methods>
+          <include name="R50PNPCampaignTest"/>
           <include name="setup"/>
-          <include name="fitnessAssessmentTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.bongz.tests.EventTransactionTest -->
+      </class> <!-- org.bongz.tests.R50PNPCampaignTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -8,12 +8,12 @@
   </listeners>
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="org.bongz.tests.EventTransactionTest">
+      <class name="org.bongz.tests.StarterWithRSAID">
         <methods>
           <include name="setup"/>
-          <include name="fitnessAssessmentTest" invocation-numbers="0"/>
+          <include name="createStarterWithRSAIDTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.bongz.tests.EventTransactionTest -->
+      </class> <!-- org.bongz.tests.StarterWithRSAID -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

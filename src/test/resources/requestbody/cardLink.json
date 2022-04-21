@@ -1,0 +1,26 @@
+{
+  "transformedEntityId": "_customerNumber",
+  "eventDate": "_eventDateT08:10:00.000",
+  "eventDefinitionCode": "ED-PartnerCard",
+  "eventSourceCode": "ES-Rewards",
+  "eventReceivedDate": "_receivedDateT08:15:00.000",
+  "eventTransactionValues": [
+    {
+      "eventValues": "Pick n Pay",
+      "eventValueCode": "EV-CardPartner"
+    }, {
+      "eventValues": "LINK",
+      "eventValueCode": "EV-CardStatus"
+    }
+  ],
+  "eventTransactionAttributes": [
+    {
+      "eventAttributeValue": "F",
+      "eventAttributeCode": "EA-GENDER"
+    },
+    {
+      "eventAttributeValue": "1990-08-11",
+      "eventAttributeCode": "EA-DATE_OF_BIRTH"
+    }
+  ]
+}

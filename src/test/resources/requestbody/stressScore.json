@@ -1,0 +1,14 @@
+{
+  
+  "transformedEntityId": "_customerNumber",
+  "eventDate": "_eventDateT06:40:29.053",
+  "eventDefinitionCode": "ED-StressScore",
+  "eventSourceCode": "ES-MultiplyCore",
+  "eventReceivedDate": "_receivedDateT06:47:29.053",
+  "eventTransactionValues": [
+    {
+      "eventValues": "900",
+      "eventValueCode": "EV-StressScore"
+    }
+  ]
+}

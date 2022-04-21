@@ -1,0 +1,13 @@
+{
+  "transformedEntityId": "_customerNumber",
+  "eventDate": "_eventDateT07:43:29.053",
+  "eventDefinitionCode": "Fitness_Assessment",
+  "eventSourceCode": "CAMAF",
+  "eventReceivedDate": "_receivedDateT07:49:31.053",
+  "eventTransactionValues": [
+    {
+      "eventValues": "5",
+      "eventValueCode": "FITNESS_LEVEL"
+    }
+  ]
+}

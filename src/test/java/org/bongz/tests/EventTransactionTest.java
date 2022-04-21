@@ -27,7 +27,7 @@ import io.restassured.response.Response;
 public class EventTransactionTest extends BaseTest{
 
 	
-	@Test(dataProvider = "getData", dataProviderClass = DataProviderUtils.class)
+	@Test
 	public void fitnessAssessmentTest(Map<String, String> data) {
 		
 		Map<String, Object> map = new HashMap<>();
@@ -59,7 +59,7 @@ public class EventTransactionTest extends BaseTest{
 		
 	}
 	
-	@Test(dataProvider = "getData", dataProviderClass = DataProviderUtils.class, enabled = false)
+	@Test
 	public void safetyQuestionnaireTest(Map<String, String> data) throws IOException {
 		
 		String requestBody = ReadJsonUtils.getJsonFileAsString(FrameworkConstants.getRequestFolderPath() + "SafetyQuestionnaire.json");

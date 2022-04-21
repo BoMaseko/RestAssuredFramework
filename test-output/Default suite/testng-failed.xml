@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.bongz.tests.EventTransactionTest">
+      <class name="org.bongz.tests.R50PNPCampaignTest">
         <methods>
-          <include name="fitnessAssessmentTest" invocation-numbers="0"/>
+          <include name="R50PNPCampaignTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- org.bongz.tests.EventTransactionTest -->
+      </class> <!-- org.bongz.tests.R50PNPCampaignTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,93 @@
+{
+    "plan": {
+        "planType": "STARTER",
+        "benefitPayer": {
+            "thirdPartyPayer": false,
+            "deductionDay": 1,
+            "groupCollections": true
+        }
+    },
+    "source": "CCF",
+    "applicationDate": "2022-03-18T00:00:00.000Z",
+    "modifiedBy": "Bongz_selenium",
+    "status": "ACTIVE",
+    "paymentIndicator": "INDIVIDUAL",
+    "contractStartDate": "_contractStartDateT00:00:00.000Z",
+    "groupOffering": "EGO-MultiplySAEmpOffer",
+    "groupCode": "EMP-MultiplySAEmpGro",
+    "premium": 340,
+    "premiumAmount": 340,
+    "discountPercentage": 0,
+    "contractEndDate": "2999-12-31T00:00:00.000Z",
+    "comboSale": false,
+    "members": [
+        {
+            "title": "Mrs",
+            "initials": "S",
+            "firstName": "_firtsName",
+            "surname": "_lastName",
+            "middleName": "JY",
+            "preferredName": "_firtsName",
+            "role": "PRINCIPAL",
+            "dateOfBirth": "_dateOfBirth",
+            "age": _age,
+            "idType": "SAID",
+            "idNumber": "_idNumber",
+            "gender": "_gender",
+            "communicationPreference": {
+                "marketingCommssAllowed": true,
+                "communicationMethod": "EMAIL"
+            },
+            "maritalStatus": "MARRIED",
+            "dependantContractSequence": 0,
+            "premium": 340,
+            "contactDetails": {
+                "preferredCorrespondence": "H",
+                "addresses": {
+                    "RESIDENTIAL": {
+                        "lines": [
+                            "6 srewa PLACE",
+                            "Java ewaer,Midrand"
+                        ]
+                    },
+                    "POSTAL": {
+                        "lines": [
+                            "6 dare PLACE",
+                            "EASTWOOD"
+                        ],
+                        "code": "5091"
+                    }
+                },
+                "contactNumbers": {
+                    "MOBILE": "0738360781"
+                },
+                "emailAddresses": {
+                    "PERSONAL": "bongani.maseko@multiply.co.za"
+                }
+            },
+            "relationship": "SELF",
+            "incomeTaxCountryCode": "ZAF",
+            "idIssueDate": "2021-09-07T00:00:00.000Z",
+            "idExpirationDate": "2999-12-31T00:00:00.000Z",
+            "products": [
+                {
+                    "name": "PNP",
+                    "description": "Wooltru",
+                    "referenceNumber": "_refNumber",
+                    "role": "PRINCIPAL",
+                    "effectiveFrom": "2021-11-17T00:00:00.000Z",
+                    "effectiveTo": "2999-12-31T00:00:00.000Z"
+                }
+            ],
+            "consent": {
+                "serviceUpdates": true,
+                "brandDirectMarketing": true,
+                "sharingProcessingOfPersonalInformation": true,
+                "specialOffers": true,
+                "regularNewsLetter": true,
+                "multiplyOnlineShop": true,
+                "productDirectMarketing": true
+            }
+        }
+    ]
+}

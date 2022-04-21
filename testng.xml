@@ -4,14 +4,19 @@
 	<listeners>
 		<listener class-name="org.bongz.listeners.ListenerClass" />
 		<listener class-name="org.bongz.listeners.MethodInterceptor" />
-		<listener class-name="org.bongz.listeners.AnnotationTransformer" />
+		<listener
+			class-name="org.bongz.listeners.AnnotationTransformer" />
 	</listeners>
 
-	<test thread-count="5" name="Test" parallel="methods">
+	<test thread-count="5" name="Test" parallel="methods">	 
 		<classes>
 			<class name="org.bongz.tests.EventTransactionTest" />
 			<class name="org.bongz.tests.SearchContractTest" />
-			<class name="org.bongz.tests.CreateContractTest" />
+			<class name="org.bongz.tests.R1000CampaignTest" />
+			<class name="org.bongz.tests.R50WooltruCampaignTest" />
+			<class name="org.bongz.tests.PremierWithRSAID" />
+			<class name="org.bongz.tests.StarterWithRSAID" />
+			<class name="org.bongz.tests.R50PNPCampaignTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

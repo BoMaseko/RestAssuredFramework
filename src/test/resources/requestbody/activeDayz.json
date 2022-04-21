@@ -1,0 +1,23 @@
+{
+  "transformedEntityId": "_customerNumber",
+  "eventDate": "_eventDateT09:00:00.000",
+  "eventDefinitionCode": "Step_Event",
+  "eventSourceCode": "FitVault",
+  "eventReceivedDate": "_receivedDateT09:47:00.000",
+  "eventTransactionValues": [
+    {
+      "eventValues": "12010",
+      "eventValueCode": "Steps"
+    }
+  ],
+  "eventTransactionAttributes": [
+    {
+      "eventAttributeValue": "F",
+      "eventAttributeCode": "EA-GENDER"
+    },
+    {
+      "eventAttributeValue": "1990-08-11",
+      "eventAttributeCode": "EA-DATE_OF_BIRTH"
+    }
+  ]
+}

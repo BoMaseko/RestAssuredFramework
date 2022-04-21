@@ -1,0 +1,188 @@
+{
+  "questionnaireCode": "QN-Financ_Welln_Q",
+  "questionnaireResults": [
+    {
+      "question": {
+        "code": "QU-Howoftendoesfinan",
+         "description": "How often does financial stress affect your health or performance at work?"
+      },
+      
+      "answer": {
+        "code": "AN-Allthetim1"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Whatdoesyourfinan",
+         "description": "What does your financial plan look like?"
+      },
+      "answer": {
+        "code": "AN-Anupdatedlong-ter"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Ifyouarehitbyunex",
+         "description": "If you are hit by unexpected expenses of more than R10 000, how will you cope?"
+      },
+      "answer": {
+        "code": "AN-Ihaveenoughinsura"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Whenyouareunderfi",
+         "description": "When you are under financial pressure, what do you cut?"
+      },
+      "answer": {
+        "code": "AN-Myday-to-dayexpen"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Howdoyougetfinanc",
+         "description": "How do you get financial advice?"
+      },
+      "answer": {
+        "code": "AN-Fromaprofessional"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Doyouprovideforsh",
+         "description": "Do you provide for short-term saving goals, e.g. for emergencies, education, holidays, etc.?"
+      },
+      "answer": {
+        "code": "AN-Yes,Iactivelysave"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Whenyouborrowmone",
+         "description": "When you borrow money, what is your approach?"
+      },
+      "answer": {
+        "code": "AN-Ishoparoundatallb"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Whichstatementbe1",
+         "description": "Which statement best describes how you repay your loans?"
+      },
+      "answer": {
+        "code": "AN-Ialwaysrepaymyloa"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Whichstatementbes",
+         "description": "Which statement best describes your payment of accounts e.g. electricity, shool fees, etc.?"
+      },
+      "answer": {
+        "code": "AN-Ialwayspaymyaccou"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Howwillyourecover",
+         "description": "How will you recover if your belongings are stolen or damaged?"
+      },
+      "answer": {
+        "code": "AN-Ihavesufficientsh"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Howwillyourecove1",
+         "description": "How will you recover if your car is stolen or in an accident?"
+      },
+      "answer": {
+        "code": "AN-Ihavesufficientsh"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Willyouearnaninc1",
+         "description": "Will you earn an income in the unfortunate event of becoming disabled?"
+      },
+      "answer": {
+        "code": "AN-Yes,Ihavesufficie"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Willyouearnaninco",
+         "description": "Will you earn an income in the event of critical illness e.g. cancer, heart attack, etc.?"
+      },
+      "answer": {
+        "code": "AN-Yes,Ihavesufficie"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Doyouknowhowmuchy",
+         "description": "Do you know how much you should save for retirement - and are you doing it?"
+      },
+      "answer": {
+        "code": "AN-Yes,Idoknowandams"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Whenmoneytroubles",
+         "description": "When money troubles strike, will you be able to rely on others to help?"
+      },
+      "answer": {
+        "code": "AN-Myfamily,friendsa"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Canyouaffordyour/",
+         "description": "Can you afford your/your family's medical expenses?"
+      },
+      "answer": {
+        "code": "AN-Yes,Icanaffordmed"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Isyourwillwordedc",
+         "description": "Is your will worded correctly and your estate plan up to date?"
+      },
+      "answer": {
+        "code": "AN-Yes,mywillisworde"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Willyourfamilyear",
+         "description": "Will your family earn an income in the event of your death?"
+      },
+      "answer": {
+        "code": "AN-Yes,butitwillnotf"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Willtherebesuffic",
+         "description": "Will there be sufficient money to pay for a funeral – for you and family members?"
+      },
+      "answer": {
+        "code": "AN-Yes,butitwillnotf"
+      }
+    },
+    {
+      "question": {
+        "code": "QU-Willyouearnaninc",
+         "description": "Will you earn an income should you lose your job?"
+      },
+      "answer": {
+        "code": "AN-Yes,Ihavesuffici"
+      }
+    }
+  ],
+  "status": "Scenario 2 - score is between 90.1 and 100",
+  "customerNumber": "_customerNumber"
+}

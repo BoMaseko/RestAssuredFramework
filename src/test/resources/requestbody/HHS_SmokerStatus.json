@@ -1,0 +1,23 @@
+{
+  "transformedEntityId": "_customerNumber",
+  "eventDate": "_eventDateT07:43:29.053",
+  "eventDefinitionCode": "Smoker_Declaration",
+  "eventSourceCode": "ES-RagEngine",
+  "eventReceivedDate": "_receivedDateT08:47:29.053",
+  "eventTransactionValues": [
+    {
+      "eventValues": "Yes",
+      "eventValueCode": "Smoking Status"
+    }
+  ],
+    "eventTransactionAttributes": [
+    {
+      "eventAttributeValue": "M",
+      "eventAttributeCode": "EA-GENDER"
+    },
+    {
+      "eventAttributeValue": "1990-01-01",
+      "eventAttributeCode": "EA-DATE_OF_BIRTH"
+    }
+  ]
+}

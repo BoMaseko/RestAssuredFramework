@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Bongz Automation Labz - Training</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 20, 2022 12:43:27 PM</span></a>
+<a href="#"><span class="badge badge-primary">Apr 19, 2022 11:48:30 AM</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">To check if the FA works</p>
+            <p class="name">To create a create premier contract with RSA ID</p>
             <p class="text-sm">
-              <span>12:43:29 PM</span> / <span>00:00:05:626</span>
+              <span>11:48:32 AM</span> / <span>00:00:08:337</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,10 +89,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">To check if the FA works</h5>
-<span class='badge badge-success'>03.20.2022 12:43:29</span>
-<span class='badge badge-danger'>03.20.2022 12:43:34</span>
-<span class='badge badge-default'>00:00:05:626</span>
+<h5 class="test-status text-pass">To create a create premier contract with RSA ID</h5>
+<span class='badge badge-success'>04.19.2022 11:48:32</span>
+<span class='badge badge-danger'>04.19.2022 11:48:41</span>
+<span class='badge badge-default'>00:00:08:337</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 </div>
@@ -102,23 +102,114 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:43:29 PM</td>
+        <td>11:48:32 AM</td>
         <td>
           <b>Multiply Automation Framework</b>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>12:43:34 PM</td>
+        <td>11:48:40 AM</td>
         <td>
-          <pre>Request method:	POST<br>Request URI:	https://multiplyaipre.multiply.co.za/event-management-service/rest/v1/eventTransaction<br>Proxy:			<none><br>Request params:	<none><br>Query params:	<none><br>Form params:	<none><br>Path params:	<none><br>Headers:		Accept=*/*<br>				Content-Type=application/json<br>Cookies:		<none><br>Multiparts:		<none><br>Body:<br>{<br>    "eventReceivedDate": "2022-03-11T07:49:31.053",<br>    "eventTransactionValues": [<br>        {<br>            "eventValueCode": "FITNESS_LEVEL",<br>            "eventValues": "5"<br>        }<br>    ],<br>    "transformedEntityId": "256165",<br>    "eventSourceCode": "CAMAF",<br>    "eventDefinitionCode": "Fitness_Assessment",<br>    "eventDate": "2022-03-11T07:43:29.053"<br>}<br></pre>
+          Premier contract :100611960 with customerNo :2709677
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:43:34 PM</td>
+        <td>11:48:41 AM</td>
         <td>
-          <span class='badge white-text green'><b>fitnessAssessmentTest passed.<b> <i class='fa fa-smile-o' style='font-size:24px'></i></span>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+    "contractNo": 100611960,
+    "message": "Contract created successfully",
+    "contractRefferenceNumber": "MM-100611961"
+}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:41 AM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create([
+    {
+        "contractNo": 100611960,
+        "referenceNumber": "MM-100611961",
+        "statusCd": "A",
+        "contractSource": "ABHI",
+        "statusDesc": "Active",
+        "contractDate": "2022-01-01",
+        "contractIssueDate": "2022-04-19",
+        "contractEndDate": "2999-12-31",
+        "employerGroupCd": "EMP-MultiplySAEmpGro",
+        "employerGroupOfferingCd": "EGO-MultiplySAEmpOffer",
+        "allowedBillingFrequencyTypeCd": "MONTHLY",
+        "totalPremium": 278.0,
+        "premiumAmount": 278.0,
+        "discountPercentage": 0.0,
+        "contractMembers": [
+            {
+                "contractMemberId": 2187827,
+                "contractRoleCd": "PRINCIPAL",
+                "contractProducts": [
+                    {
+                        "productCd": "PRD-Migration",
+                        "planCd": "TTA-Premier",
+                        "contractProductPrice": 278.0,
+                        "planName": "Premier",
+                        "effFromDate": "2020-08-19",
+                        "effToDate": "2999-12-31"
+                    }
+                ],
+                "member": {
+                    "personGenders": [
+                        {
+                            "genderTypeCd": "F",
+                            "genderTypeDescription": "Female",
+                            "effFromDate": "2022-04-19",
+                            "effToDate": "2999-12-31"
+                        }
+                    ],
+                    "titleCd": "Mr",
+                    "initials": "M",
+                    "firstName": "Sikhumbuzo",
+                    "lastName": "Holmes",
+                    "knownAsName": "Sikhumbuzo",
+                    "dateOfBirth": "1991-09-13",
+                    "entityName": "Sikhumbuzo Holmes",
+                    "personUID": [
+                        {
+                            "uidNo": "9109135800084",
+                            "typeCd": "SAID"
+                        }
+                    ]
+                },
+                "customerId": "2709677"
+            }
+        ],
+        "modifiedBy": "System",
+        "modifiedDate": "2022-04-19"
+    }
+]); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:48:41 AM</td>
+        <td>
+          <span class='badge white-text green'><b>createPremierWithRSAIDTest passed.<b> <i class='fa fa-smile-o' style='font-size:24px'></i></span>
         </td>
       </tr>
   </tbody>
@@ -140,13 +231,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 20, 2022 12:43:27 PM</h3>
+<h3>Apr 19, 2022 11:48:30 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 20, 2022 12:43:34 PM</h3>
+<h3>Apr 19, 2022 11:48:41 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -197,7 +288,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='33%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='60%'><b>3</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>2</b> others
@@ -216,7 +307,7 @@
 </div></div>
 <script>
 var timeline = {
-"To check if the FA works":5.626
+"To create a create premier contract with RSA ID":8.337
 };
 </script>
 <div class="row">
@@ -242,7 +333,7 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
+passEvents: 3,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,

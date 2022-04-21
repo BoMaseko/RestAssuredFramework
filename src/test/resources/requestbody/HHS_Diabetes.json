@@ -1,0 +1,23 @@
+{
+  "transformedEntityId": "_customerNumber",
+  "eventDate": "_eventDateT07:43:29.053",
+  "eventDefinitionCode": "Diabetes_Status",
+  "eventSourceCode": "ES-RagEngine",
+  "eventReceivedDate": "_receivedDateT08:47:29.053",
+  "eventTransactionValues": [
+    {
+      "eventValues": "8.20",
+      "eventValueCode": "Fasting Blood Sugar"
+    }
+  ],
+    "eventTransactionAttributes": [
+    {
+      "eventAttributeValue": "M",
+      "eventAttributeCode": "EA-GENDER"
+    },
+    {
+      "eventAttributeValue": "1990-01-01",
+      "eventAttributeCode": "EA-DATE_OF_BIRTH"
+    }
+  ]
+}

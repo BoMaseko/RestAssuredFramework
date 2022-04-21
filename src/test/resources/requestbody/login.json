@@ -1,0 +1,17 @@
+{
+
+    "clientNumber": "_customerNumber",
+
+    "rsaID": null,
+
+    "passport": null,
+
+    "ldapID": "mike@walkertools.co.za",
+
+    "createDate": "2022-03-10",
+
+    "source": "MULTIPLY_MOBILE",
+
+    "operationType": "LOGIN"
+
+}

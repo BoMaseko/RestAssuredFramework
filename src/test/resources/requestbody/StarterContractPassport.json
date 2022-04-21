@@ -1,0 +1,98 @@
+{
+    "plan": {
+        "planType": "STARTER",
+        "benefitPayer": {
+            "thirdPartyPayer": false,
+            "deductionDay": 1,
+            "groupCollections": true
+        }
+    },
+    "source": "CCF",
+    "applicationDate": "2021-11-30T00:00:00.000Z",
+    "modifiedBy": "Bongani",
+    "status": "ACTIVE",
+    "paymentIndicator": "INDIVIDUAL",
+    "contractStartDate": "_contractStartDateT00:00:00.000Z",
+    "groupOffering": "EGO-MultiplySAEmpOffer",
+    "groupCode": "EMP-MultiplySAEmpGro",
+    "premium": 0,
+    "premiumAmount": 0,
+    "discountPercentage": 0,
+    "contractEndDate": "2999-12-31T00:00:00.000Z",
+    "comboSale": false,
+    "members": [
+        {
+            "title": "Mr",
+            "initials": "KB",
+            "firstName": "_firtsName",
+            "surname": "_lastName",
+            "middleName": "",
+            "preferredName": "_firstName",
+            "role": "PRINCIPAL",
+            "dateOfBirth": "1985-04-12",
+            "age": 36,
+            "idType": "PASSPORT",
+            "passportNumber": "_passport",
+            "gender": "MALE",
+            "nationality": "ZAF",
+            "countryOfResidence": "ZAF",
+            "passportCountryOfIssue": "ZAF",
+            "effectiveFrom": "2021-10-01T00:00:00.000Z",
+            "effectiveTo": "2999-12-31T00:00:00.000Z",
+            "communicationPreference": {
+                "marketingCommssAllowed": true,
+                "communicationMethod": "EMAIL"
+            },
+            "maritalStatus": "Single",
+            "dependantContractSequence": 0,
+            "premium": 0,
+            "contactDetails": {
+                "preferredCorrespondence": "H",
+                "addresses": {
+                    "RESIDENTIAL": {
+                        "lines": [
+                            "7 Day PLACE",
+                            "Day,PHOENIX"
+                        ]
+                    },
+                    "POSTAL": {
+                        "lines": [
+                            "7 SOUTH Day",
+                            "SOUTH"
+                        ],
+                        "code": "4062"
+                    }
+                },
+                "contactNumbers": {
+                    "MOBILE": "0738360781"
+                },
+                "emailAddresses": {
+                    "PERSONAL": "bongani.maseko@multiply.co.za"
+                }
+            },
+            "relationship": "SELF",
+            "incomeTaxCountryCode": "ZAF",
+            "idIssueDate": "2021-09-07T00:00:00.000Z",
+            "idExpirationDate": "2999-12-31T00:00:00.000Z",
+            "products": [
+                {
+                    "name": "WOO",
+                    "description": "Wooltru Campaign",
+                    "referenceNumber": "_refNumber",
+                    "role": "PRINCIPAL",
+                    "effectiveFrom": "2021-11-26T00:00:00.000Z",
+                    "effectiveTo": "2999-12-31T00:00:00.000Z"
+                }
+            ],
+            "consent": {
+                "serviceUpdates": true,
+                "brandDirectMarketing": true,
+                "sharingProcessingOfPersonalInformation": true,
+                "specialOffers": true,
+                "regularNewsLetter": true,
+                "multiplyOnlineShop": true,
+                "productDirectMarketing": true
+            }
+        }
+    ]
+}
